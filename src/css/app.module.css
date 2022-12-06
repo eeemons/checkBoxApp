@@ -1,0 +1,44 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: auto;
+  height: 30px;
+  margin: 20px;
+  padding: 10px;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+button {
+  width: auto;
+  height: 35px;
+  padding: 10px;
+  margin: 5px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+button:hover {
+  background: #204e5d;
+  color: white;
+  border: none;
+}
+
+.componentList {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
