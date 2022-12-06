@@ -46,12 +46,13 @@ function App() {
     for (let i = 0; i < arr.length; i++) {
       sum += arr[i];
     }
-    console.log("sum of the array", sum);
+    console.log("Sum is", sum);
   }
 
   function showIndex(indexArr) {
+    console.log("index selected");
     for (var i = 0; i < indexArr.length; i++) {
-      console.log("index selected", indexArr[i]);
+      console.log(indexArr[i]);
     }
   }
 
@@ -80,6 +81,8 @@ function App() {
             />
           ))}
       </div>
+      <br />
+      <p>Please open conosle of the browser</p>
     </div>
   );
 }
